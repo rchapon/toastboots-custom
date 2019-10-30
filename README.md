@@ -53,6 +53,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Frameworks y librerías / Frameworks and Libraries
 
-* [Bootstrap page](https://getbootstrap.com/)
-* [jQuery pagina](https://jquery.com/)
-* [Font Awesome pagina](https://fontawesome.com/)
+* [Bootstrap page]:https://getbootstrap.com/
+* [jQuery pagina]:https://jquery.com/
+* [Font Awesome pagina]:https://fontawesome.com/
