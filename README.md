@@ -5,10 +5,9 @@ This is a Jquery plugin wich can be use to generate customize bootstrap toast.
 ### Requirements
 
 This are the requirements to can use toastboots-custom:
-```markdown
+
 1. Bootstrap V4.3 [bootstrap page](https://getbootstrap.com/)
 2. Jquery 3.4.1
-```
 
 ## Bienvenido a toastboots-custom
 
