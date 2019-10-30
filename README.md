@@ -1,12 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to toastboots-custom
 
-You can use the [editor on GitHub](https://github.com/rchapon/toastboots-custom/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a Jquery plugin wich can be use to generate customize bootstrap toast.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements
 
-### Markdown
+This are the requirements to can use toastboots-custom:
+```markdown
+1. Bootstrap V4.3 [bootstrap page](https://getbootstrap.com/)
+2. Jquery 3.4.1
+```
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Bienvenido a toastboots-custom
+
+Este es un complemento de Jquery que se puede usar para generar un brindis de arranque personalizado.
+
+### Requisitos
+
+Estos son los requisitos para usar toastboots-custom:
 
 ```markdown
 Syntax highlighted code block
