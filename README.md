@@ -1,6 +1,6 @@
 ## Bienvenido a toastboots-custom [(english info here)](#english-info)
 
-Este es un complemento de Jquery que se puede usar para generar un brindis de arranque personalizado.
+Este es un complemento de Jquery que se puede usar para generar un toast de bootstrap personalizado.
 
 ### Requisitos
 
@@ -8,8 +8,29 @@ Estos son los requisitos para usar toastboots-custom:
 
 1. Bootstrap V4.3 [Bootstrap página]
 2. jQuery 3.4.1 [jQuery página]
-3. Font Awesome (opcional) [Font Awesome página]
+3. Font Awesome **(opcional)** [Font Awesome página]
 
+### Instalación
+
+Debe incorporar a su proyecto [Bootstrap], para este se utilizó [bootstrap.bundle.min], debe agregar tanto el **.Css** como el **.Js**
+
+Debe incorporar también [jQuery]
+
+Y como opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de **toastboots-custom**
+
+Se debe ver así:
+````html
+<head>
+    <link rel="stylesheet" type="text/css" href="tu-ruta/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="tu-ruta/font-awesome.min.css">
+</head>
+<body>
+    <script type="text/javascript" src="tu-ruta/jquery3.4.1.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/font-awesome.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
+</body
+````
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
 This is a Jquery plugin wich can be use to generate customize bootstrap toast.
@@ -20,8 +41,29 @@ This are the requirements to can use toastboots-custom:
 
 1. Bootstrap V4.3 [Bootstrap page]
 2. jQuery 3.4.1 [jQuery page]
-3. Font Awesome (opcional) [Font Awesome page]
+3. Font Awesome **(optional)** [Font Awesome page]
 
+### Installation
+
+You must add [Bootstrap] to your project, [bootstrap.bundle.min] was used for this, you must add both **.Css** and **.Js**
+
+You must also incorporate [jQuery]
+
+And as optional [Font Awesome] or any icon framework, since they can be used within **toastboots-custom**
+
+It should look like this:
+````html
+<head>
+    <link rel="stylesheet" type="text/css" href="tu-ruta/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="tu-ruta/font-awesome.min.css">
+</head>
+<body>
+    <script type="text/javascript" src="tu-ruta/jquery3.4.1.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/font-awesome.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
+</body
+````
 
 ```markdown
 Syntax highlighted code block
