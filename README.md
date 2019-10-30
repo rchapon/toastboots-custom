@@ -16,7 +16,7 @@ Estos son los requisitos para usar toastboots-custom:
 
 - Debe incorporar también [jQuery], debe ser el primero de todos los archivos **.js**.
 
-- Opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de **toastboots-custom**.
+- Opcional [Font Awesome] o cualquier framework de iconos, porque pueden ser utilizados dentro en **toastboots-custom**.
 
 - Y por supuesto incorporar [toastboots-custom].
 
@@ -63,7 +63,7 @@ De la siguiente manera:
         });
     </script>
 ````
-Y podrá ser llamado desde diferenctes funciones o en algún evento de los elementos del DOM, a criterio del desarrollador.
+Y podrá ser llamado desde diferentes funciones o en algún evento de los elementos del DOM, a criterio del desarrollador.
 
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
@@ -83,7 +83,7 @@ This are the requirements to can use toastboots-custom:
 
 - You must also incorporate [jQuery], it must be the first of all the **.js** files.
 
-- Optional [Font Awesome] or any icon framework, since they can be used within **toastboots-custom**.
+- Optional [Font Awesome] or any icon framework, because they can be used in **toastboots-custom**.
 
 -- And of course incorporate [toastboots-custom]
 
@@ -144,9 +144,9 @@ And it can be called from different functions or in some event of the elements o
 [Bootstrap page]:https://getbootstrap.com/
 [jQuery page]:https://jquery.com/
 [Font Awesome page]:https://fontawesome.com/
-[Bootstrap página/page]:https://getbootstrap.com/
-[jQuery página/page]:https://jquery.com/
-[Font Awesome página/page]:https://fontawesome.com/
+[Bootstrap (página/page)]:https://getbootstrap.com/
+[jQuery (página/page)]:https://jquery.com/
+[Font Awesome (página/page)]:https://fontawesome.com/
 [Bootstrap]:https://getbootstrap.com/docs/4.3/getting-started/download/
 [jQuery]:https://code.jquery.com/jquery-3.4.1.min.js
 [Font Awesome]:https://use.fontawesome.com/releases/v5.11.2/fontawesome-free-5.11.2-web.zip
