@@ -12,11 +12,12 @@ Estos son los requisitos para usar toastboots-custom:
 
 ### Instalación
 
-Debe incorporar a su proyecto [Bootstrap], para este se utilizó [bootstrap.bundle.min], debe agregar tanto el **.Css** como el **.Js**
+Debe incorporar a su proyecto [Bootstrap], para este se utilizó **bootstrap.bundle.min**, debe agregar tanto el **.css** como el **.js**, incluidos en el **[Compilado CSS y JS]**
 
 Debe incorporar también [jQuery]
 
-Y como opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de **toastboots-custom**
+Y como opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de
+**toastboots-custom**
 
 Se debe ver así:
 ````html
@@ -45,7 +46,7 @@ This are the requirements to can use toastboots-custom:
 
 ### Installation
 
-You must add [Bootstrap] to your project, [bootstrap.bundle.min] was used for this, you must add both **.Css** and **.Js**
+You must add [Bootstrap] to your project, **bootstrap.bundle.min** was used for this, you must add both **.Css** and **.Js**, included on **[Compiled CSS and JS]**
 
 You must also incorporate [jQuery]
 
@@ -109,3 +110,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Bootstrap página/page]:https://getbootstrap.com/
 [jQuery página/page]:https://jquery.com/
 [Font Awesome página/page]:https://fontawesome.com/
+[Bootstrap]:https://getbootstrap.com/
+[jQuery]:https://jquery.com/
+[Font Awesome]:https://fontawesome.com/
+[Compilado CSS y JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
+[Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
