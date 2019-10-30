@@ -6,9 +6,9 @@ Este es un complemento de Jquery que se puede usar para generar un brindis de ar
 
 Estos son los requisitos para usar toastboots-custom:
 
-1. Bootstrap V4.3 [Bootstrap page]
-2. jQuery 3.4.1 [jQuery pagina]
-3. Font Awesome (opcional) [Font Awesome pagina]
+1. Bootstrap V4.3 [Bootstrap página]
+2. jQuery 3.4.1 [jQuery página]
+3. Font Awesome (opcional) [Font Awesome página]
 
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
@@ -20,6 +20,7 @@ This are the requirements to can use toastboots-custom:
 
 1. Bootstrap V4.3 [Bootstrap page]
 2. jQuery 3.4.1 [jQuery page]
+3. Font Awesome (opcional) [Font Awesome page]
 
 
 ```markdown
@@ -53,10 +54,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Frameworks y librerías / Frameworks and Libraries
 
-* [Bootstrap page]
-* [jQuery pagina]
-* [Font Awesome pagina]
+* [Bootstrap página/page]
+* [jQuery página/page]
+* [Font Awesome página/page]
 
+[Bootstrap página]:https://getbootstrap.com/
+[jQuery página]:https://jquery.com/
+[Font Awesome página]:https://fontawesome.com/
 [Bootstrap page]:https://getbootstrap.com/
-[jQuery pagina]:https://jquery.com/
-[Font Awesome pagina]:https://fontawesome.com/
+[jQuery page]:https://jquery.com/
+[Font Awesome page]:https://fontawesome.com/
+[Bootstrap página/page]:https://getbootstrap.com/
+[jQuery página/page]:https://jquery.com/
+[Font Awesome página/page]:https://fontawesome.com/
