@@ -12,12 +12,13 @@ Estos son los requisitos para usar toastboots-custom:
 
 ### Instalación
 
-Debe incorporar a su proyecto [Bootstrap], para este se utilizó **bootstrap.bundle.min**, debe agregar tanto el **.css** como el **.js**, incluidos en el **[Compilado CSS y JS]**
+- Debe incorporar a su proyecto [Bootstrap], para este se utilizó **bootstrap.bundle.min**, debe agregar tanto el **.css** como el **.js**, incluidos en el **[Compilado CSS y JS]**.
 
-Debe incorporar también [jQuery]
+- Debe incorporar también [jQuery], debe ser el primero de todos los archivos **.js**.
 
-Y como opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de
-**toastboots-custom**
+- Opcional [Font Awesome] o cualquier framework de iconos, ya que pueden ser utilizados dentro de **toastboots-custom**.
+
+- Y por supuesto incorporar [toastboots-custom].
 
 Se debe ver así:
 ````html
@@ -32,6 +33,38 @@ Se debe ver así:
     <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
 </body
 ````
+### Como funciona
+
+Para usar **toastboots-custom** deberás agregar el siguiente código a su **<script></script>**
+De la siguiente manera:
+
+````hmtl
+    <script type="text/javascript">
+        $("document").ready(function(){
+            $.toast({
+                site: '',
+                title: '',
+                titleBg: '',
+                titleTc: '',
+                subtitle: '',
+                subtitleTc: '',
+                timesTc : '',
+                content: '',
+                contentBg: '',
+                contentTc: '',
+                type: '',
+                animation: '',
+                autohide: '',
+                delay: '',
+                width : '',
+                posy: '',
+                posx: ''
+            });
+        });
+    </script>
+````
+Y podrá ser llamado desde diferenctes funciones o en algún evento de los elementos del DOM, a criterio del desarrollador.
+
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
 This is a Jquery plugin wich can be use to generate customize bootstrap toast.
@@ -46,11 +79,13 @@ This are the requirements to can use toastboots-custom:
 
 ### Installation
 
-You must add [Bootstrap] to your project, **bootstrap.bundle.min** was used for this, you must add both **.Css** and **.Js**, included on **[Compiled CSS and JS]**
+- You must add [Bootstrap] to your project, **bootstrap.bundle.min** was used for this, you must add both **.Css** and **.Js**, included on **[Compiled CSS and JS]**.
 
-You must also incorporate [jQuery]
+- You must also incorporate [jQuery], it must be the first of all the **.js** files.
 
-And as optional [Font Awesome] or any icon framework, since they can be used within **toastboots-custom**
+- Optional [Font Awesome] or any icon framework, since they can be used within **toastboots-custom**.
+
+-- And of course incorporate [toastboots-custom]
 
 It should look like this:
 ````html
@@ -65,41 +100,43 @@ It should look like this:
     <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
 </body
 ````
+### How does it work
 
-```markdown
-Syntax highlighted code block
+To use **toastboots-custom** you must add the following code to your **<script> </script>**
+As follows:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rchapon/toastboots-custom/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
+````hmtl
+    <script type="text/javascript">
+        $("document").ready(function(){
+            $.toast({
+                site: '',
+                title: '',
+                titleBg: '',
+                titleTc: '',
+                subtitle: '',
+                subtitleTc: '',
+                timesTc : '',
+                content: '',
+                contentBg: '',
+                contentTc: '',
+                type: '',
+                animation: '',
+                autohide: '',
+                delay: '',
+                width : '',
+                posy: '',
+                posx: ''
+            });
+        });
+    </script>
+````
+And it can be called from different functions or in some event of the elements of the DOM, at the discretion of the developer.
 
 ### Frameworks y librerías / Frameworks and Libraries
 
-* [Bootstrap página/page]
-* [jQuery página/page]
-* [Font Awesome página/page]
+* [Bootstrap (página/page)]
+* [jQuery (página/page)]
+* [Font Awesome (página/page)]
 
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
@@ -110,8 +147,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 [Bootstrap página/page]:https://getbootstrap.com/
 [jQuery página/page]:https://jquery.com/
 [Font Awesome página/page]:https://fontawesome.com/
-[Bootstrap]:https://getbootstrap.com/
-[jQuery]:https://jquery.com/
-[Font Awesome]:https://fontawesome.com/
+[Bootstrap]:https://getbootstrap.com/docs/4.3/getting-started/download/
+[jQuery]:https://code.jquery.com/jquery-3.4.1.min.js
+[Font Awesome]:https://use.fontawesome.com/releases/v5.11.2/fontawesome-free-5.11.2-web.zip
 [Compilado CSS y JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
