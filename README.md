@@ -1,4 +1,15 @@
-## Welcome to toastboots-custom
+## Bienvenido a toastboots-custom [English info here](#english-info)
+
+Este es un complemento de Jquery que se puede usar para generar un brindis de arranque personalizado.
+
+### Requisitos
+
+Estos son los requisitos para usar toastboots-custom:
+
+1. Bootstrap V4.3 [Bootstrap page](https://getbootstrap.com/)
+2. jQuery 3.4.1 [jQuery page](https://jquery.com/)
+
+## Welcome to toastboots-custom <a name="english-info"></a>
 
 This is a Jquery plugin wich can be use to generate customize bootstrap toast.
 
@@ -6,16 +17,9 @@ This is a Jquery plugin wich can be use to generate customize bootstrap toast.
 
 This are the requirements to can use toastboots-custom:
 
-1. Bootstrap V4.3 [bootstrap page](https://getbootstrap.com/)
-2. Jquery 3.4.1
+1. Bootstrap V4.3 [Bootstrap page](https://getbootstrap.com/)
+2. jQuery 3.4.1 [jQuery page](https://jquery.com/)
 
-## Bienvenido a toastboots-custom
-
-Este es un complemento de Jquery que se puede usar para generar un brindis de arranque personalizado.
-
-### Requisitos
-
-Estos son los requisitos para usar toastboots-custom:
 
 ```markdown
 Syntax highlighted code block
