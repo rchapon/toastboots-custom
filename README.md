@@ -196,7 +196,9 @@ The **type** property gives you a style of the 26 combinations that the pre-esta
 |**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**.|
 
 ___
-### Colo
+### COLORES DE TEXTO Y  DE FONDOS / TEXT COLORS AND BACKGROUND COLORS <a name="coloryfondo"></a>
+
+![tbg-colors]
 
 ### Frameworks y librerías / Frameworks and Libraries
 
@@ -218,3 +220,4 @@ ___
 [Font Awesome]:https://use.fontawesome.com/releases/v5.11.2/fontawesome-free-5.11.2-web.zip
 [Compilado CSS y JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
+[tbg-colors]: https://github.com/rchapon/toastboots-custom/blob/master/img/tbg-colors.png
