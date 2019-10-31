@@ -92,6 +92,13 @@ La propiedad **type** le da un estilo de las 26 combinaciones que posee el compl
 |**posy**|Posición del toast en el eje **"Y"** en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**.|
 |**posx**|Posición del toast en el eje **"X"** en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**.|
 
+### Para tomar en cuenta
+
+Este complemento utiliza las clases de boostrap para colores de texto y de fondo.
+
+1. [VER COLORES DE TEXTO Y  DE FONDOS](#coloryfondo)
+2. [VER COMBINACIONES PREESTABLECIDAS](#preestablecidas)
+
 ___
 
 ## Welcome to toastboots-custom <a name="english-info"></a>
@@ -114,7 +121,7 @@ This are the requirements to can use toastboots-custom:
 
 - Optional [Font Awesome] or any icon framework, because they can be used in **toastboots-custom**.
 
--- And of course incorporate [toastboots-custom]
+- And of course incorporate [toastboots-custom]
 
 It should look like this:
 ````html
@@ -189,6 +196,7 @@ The **type** property gives you a style of the 26 combinations that the pre-esta
 |**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**.|
 
 ___
+### Colo
 
 ### Frameworks y librerías / Frameworks and Libraries
 
