@@ -72,57 +72,25 @@ A continuación se listan todas la propiedades de la personalización del **toas
 
 La propiedad **type** le da un estilo de las 26 combinaciones que posee el complemento ya preestablecidas. Si se declara esta propiedad no es necesario declarar las propiedades, **titleBg titleTc subtitleTc timesTc contentBg y contentTc**
 
-1. **site**
-
-    Lugar donde aparecerá el toast, si se omite o se deja en blanco por defecto es **'body'**.
-2. **title**
-
-    Título del toast, por defecto es **'Notice!'**.
-3. **titleBg**
-
-    Color de fondo del título, por defecto es **'bg-primary'**.
-4. **titleTc**
-
-    Color de texto del título, por defecto es **'text-white'**.
-5. **subtitle**
-
-    Subtítulo del toast, por defecto es **'Now'**.
-6. **subtitleTc**
-
-    Color de texto del subtitulo, por defecto es **'text-white'**.
-7. **timesTc**
-
-    Color de texto del times (X), por defecto es **'text-light'**.
-8. **content**
-
-    Texto del contenido del toast, por defecto es **'Hello World, this is a toast'**.
-9. **contentBg**
-
-    Color de fondo del contenido, por defecto es **'bg-white'**.
-10. **contentTc**
-
-    Color del Texto del contenido, por defecto **'text-dark'**.
-11. **type**
-
-    Tipo de toast, aquí se puede elegir entre 26 combinaciones de colores predefinidas, no tiene valor por defecto.
-12. **animation**
-
-    Activa o no la animación del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**
-13. **autohide**
-
-    Activa o no el autohide del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**, si es colocado en **'false'** el usuario deberá cerrar el toast y la propiedad **delay** será omitida.
-14. **delay**
-
-    Tiempo de retardo para que el toast se oculte si la propiedad **autohide** está activa **'true'**. su valor es en milisegundos, 1000 = 1s, valor por defecto 3000 = 3s.
-15. **width**
-
-    Ancho del toast, debe ser definido en pixeles con el valor+px ejemplo **'150px'**, el valor por defecto es "auto", el cual se adapta al contenido.
-16. **posy**
-
-    Posición del toast en el eje "Y" en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**.
-17. **posx**
-
-    Posición del toast en el eje "X" en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**.
+|Propiedad|Descripción|
+|:---:|:---|
+|**site**|Lugar donde aparecerá el toast, si se omite o se deja en blanco por defecto es **'body'**.|
+|**title**|Título del toast, por defecto es **'Notice!'**.|
+|**titleBg**|Color de fondo del título, por defecto es **'bg-primary'**.|
+|**titleTc**|Color de texto del título, por defecto es **'text-white'**.|
+|**subtitle**|Subtítulo del toast, por defecto es **'Now'**.|
+|**subtitleTc**|Color de texto del subtitulo, por defecto es **'text-white'**.|
+|**timesTc**|Color de texto del times (X), por defecto es **'text-light'**.|
+|**content**|Texto del contenido del toast, por defecto es **'Hello World, this is a toast'**.|
+|**contentBg**|Color de fondo del contenido, por defecto es **'bg-white'**.|
+|**contentTc**|Color del Texto del contenido, por defecto **'text-dark'**.|
+|**type**|Tipo de toast, aquí se puede elegir entre 26 combinaciones de colores predefinidas, no tiene valor por defecto.|
+|**animation**|Activa o no la animación del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**|
+|**autohide**|Activa o no el autohide del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**, si es colocado en **'false'** el usuario deberá cerrar el toast y la propiedad **delay** será omitida.|
+|**delay**|Tiempo de retardo para que el toast se oculte si la propiedad **autohide** está activa **'true'**. su valor es en milisegundos, 1000 = 1s, valor por defecto 3000 = 3s.|
+|**width**|Ancho del toast, debe ser definido en pixeles con el valor+px ejemplo **'150px'**, el valor por defecto es "auto", el cual se adapta al contenido.|
+|**posy**|Posición del toast en el eje "Y" en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**.|
+|**posx**|Posición del toast en el eje "X" en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**.|
 
 ___
 
