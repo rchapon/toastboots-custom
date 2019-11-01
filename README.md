@@ -100,10 +100,10 @@ Este complemento utiliza las clases de boostrap para colores de texto y de fondo
 2. [VER COMBINACIONES PREESTABLECIDAS](#preestablecidas)
 
 ___
-
+___
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
-This is a Jquery plugin wich can be use to generate customize bootstrap toast.
+This is a Jquery plug-in wich can be use to generate customize bootstrap toast.
 
 ### Requirements
 
@@ -195,12 +195,21 @@ The **type** property gives you a style of the 26 combinations that the pre-esta
 |**posy**| Position of the toast on the axis **"Y"** in relation to the property **site**, example **'top:10'** or **'bottom:20'**.|
 |**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**.|
 
-___
-### COLORES DE TEXTO Y  DE FONDOS / TEXT COLORS AND BACKGROUND COLORS <a name="coloryfondo"></a>
+### To take consideration
 
+This plug-in uses bootstrap classes for text colors and background colors.
+
+1. [SEE TEXT COLORS AND BACKGROUND COLORS](#coloryfondo)
+2. [SEE PRE-ESTABLISHED COMBINATIONS](#preestablecidas)
+___
+
+## Colores de texto y fondo / Text and background Colors <a name="coloryfondo"></a>
 ![tbg-colors]
 
-### Frameworks y librerías / Frameworks and Libraries
+## Combinaciones preestablecidas / Pre-established combinations <a name="preestablecidas"></a>
+![preestablecidas]
+___
+## Frameworks y librerías / Frameworks and Libraries
 
 * [Bootstrap (página/page)]
 * [jQuery (página/page)]
@@ -221,3 +230,4 @@ ___
 [Compilado CSS y JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [tbg-colors]: https://github.com/rchapon/toastboots-custom/blob/master/img/tbg-colors.png
+[preestablecidas]: https://github.com/rchapon/toastboots-custom/blob/master/img/preestablecidas.png
