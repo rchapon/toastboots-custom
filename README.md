@@ -245,7 +245,7 @@ ___
 * [jQuery (página/page)]
 * [Font Awesome (página/page)]
 
-[logo_75]:https://github.com/rchapon/toastboots-custom/blob/master/img/logo_75.png
+[logo_75]:https://ibb.co/p4XFrrr
 [toastboots-custom]:https://github.com/rchapon/toastboots-custom/blob/master/toastboots-custom/toastboots-custom.js
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
@@ -261,5 +261,7 @@ ___
 [Font Awesome]:https://use.fontawesome.com/releases/v5.11.2/fontawesome-free-5.11.2-web.zip
 [Compilado CSS y JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
-[tbg-colors]: https://github.com/rchapon/toastboots-custom/blob/master/img/tbg-colors.png
-[preestablecidas]: https://github.com/rchapon/toastboots-custom/blob/master/img/preestablecidas.png
+[tbg-colors]: https://ibb.co/W2ZQhTR
+[preestablecidas]: https://ibb.co/yY9LRqd
+
+
