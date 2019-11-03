@@ -140,14 +140,14 @@ This are the requirements to can use toastboots-custom:
 It should look like this:
 ````html
 <head>
-    <link rel="stylesheet" type="text/css" href="tu-ruta/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="tu-ruta/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="you-path/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="you-path/font-awesome.min.css">
 </head>
 <body>
-    <script type="text/javascript" src="tu-ruta/jquery3.4.1.min.js"></script>
-    <script type="text/javascript" src="tu-ruta/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="tu-ruta/font-awesome.min.js"></script>
-    <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
+    <script type="text/javascript" src="you-path/jquery3.4.1.min.js"></script>
+    <script type="text/javascript" src="you-path/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="you-path/font-awesome.min.js"></script>
+    <script type="text/javascript" src="you-path/toastboots-custom.js">
 </body
 ````
 ### How does it work
