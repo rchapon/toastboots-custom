@@ -416,7 +416,6 @@
                     width      = $("#width").val(),
                     posy       = $("#posy").val(),
                     posx       = $("#posx").val();
-                    //alert(posy);
                 $.toast({
                     site: site,
                     title: title,
@@ -437,9 +436,9 @@
                     posx: posx
                 });
             });
-            // $(document).on('hidden.bs.toast','.toast',function (e) {
-            //     $(this).remove();
-            // });
+            $(document).on('hidden.bs.toast','.toast',function (e) {
+                $(this).remove();
+            });
         });
 
     </script>
