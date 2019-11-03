@@ -1,3 +1,5 @@
+![logo_75]
+
 ## Bienvenido a toastboots-custom [(english info here)](#english-info)
 
 Este es un complemento de Jquery que se puede usar para generar un toast de bootstrap personalizado.
@@ -243,6 +245,7 @@ ___
 * [jQuery (página/page)]
 * [Font Awesome (página/page)]
 
+[tbg-colors]:https://github.com/rchapon/toastboots-custom/blob/master/img/logo_75.png
 [toastboots-custom]:https://github.com/rchapon/toastboots-custom/blob/master/toastboots-custom/toastboots-custom.js
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
