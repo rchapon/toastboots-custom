@@ -117,7 +117,7 @@ ___
 ___
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
-This is a Jquery plug-in wich can be use to generate customize bootstrap toast.
+This is a Jquery plugin wich can be use to generate customize bootstrap toast.
 
 ### Requirements
 
@@ -225,7 +225,7 @@ To do this, just only must add next code in your **<script> </script>**, that is
 
 ### To take consideration
 
-This plug-in uses bootstrap classes for text colors and background colors.
+This plugin uses bootstrap classes for text colors and background colors.
 
 1. [SEE TEXT COLORS AND BACKGROUND COLORS](#coloryfondo)
 2. [SEE PRE-ESTABLISHED COMBINATIONS](#preestablecidas)
