@@ -245,7 +245,7 @@ ___
 * [jQuery (página/page)]
 * [Font Awesome (página/page)]
 
-[tbg-colors]:https://github.com/rchapon/toastboots-custom/blob/master/img/logo_75.png
+[logo_75]:https://github.com/rchapon/toastboots-custom/blob/master/img/logo_75.png
 [toastboots-custom]:https://github.com/rchapon/toastboots-custom/blob/master/toastboots-custom/toastboots-custom.js
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
