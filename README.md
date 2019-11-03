@@ -89,8 +89,8 @@ La propiedad **type** le da un estilo de las 29 combinaciones que posee el compl
 |**autohide**|Activa o no el autohide del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**, si es colocado en **'false'** el usuario deberá cerrar el toast y la propiedad **delay** será omitida.|
 |**delay**|Tiempo de retardo para que el toast se oculte si la propiedad **autohide** está activa **'true'**. Su valor es en milisegundos, 1000 = 1s, valor por defecto 3000 = 3s.|
 |**width**|Ancho del toast, debe ser definido en pixeles con el valor+px ejemplo **'150px'**, el valor por defecto es **'auto'**, el cual se adapta al contenido.|
-|**posy**|Posición del toast en el eje **"Y"** en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**.|
-|**posx**|Posición del toast en el eje **"X"** en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**.|
+|**posy**|Posición del toast en el eje **"Y"** en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**, por defecto es top:0|
+|**posx**|Posición del toast en el eje **"X"** en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**, por defecto es right:0|
 
 ### Remover el toastboots-custom del DOM
 
@@ -206,8 +206,8 @@ The **type** property gives you a style of the 29 combinations that the pre-esta
 |**autohide**| Activate or not the toast autohide, **'true'** active, **'false'** inactive, default is **'true'**, if set to **'false'** the user must close the toast and the **delay** property will be omitted.
 |**delay**| Delay time for the toast to hide if the **autohide** property is active **'true'**. Its value is in milliseconds, 1000 = 1s, default value 3000 = 3s.
 |**width**| Width of the toast, must be defined in pixels with the value+px example **'150px'** or **'300px'**, the default value is **'auto'**, which adapts to the content.|
-|**posy**| Position of the toast on the axis **"Y"** in relation to the property **site**, example **'top:10'** or **'bottom:20'**.|
-|**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**.|
+|**posy**| Position of the toast on the axis **"Y"** in relation to the property **site**, example **'top:10'** or **'bottom:20'**, default is top:0|
+|**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**, default is right:0|
 
 ### Remove the toastboots-custom from the DOM
 
