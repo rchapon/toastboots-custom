@@ -4,6 +4,8 @@
 
 Este es un complemento de Jquery que se puede usar para generar un toast de bootstrap personalizado.
 
+[Página demo]
+
 ### Requisitos
 
 Estos son los requisitos para usar toastboots-custom:
@@ -120,6 +122,8 @@ ___
 ## Welcome to toastboots-custom <a name="english-info"></a>
 
 This is a Jquery plugin wich can be use to generate customize bootstrap toast.
+
+[Demo page]
 
 ### Requirements
 
@@ -263,3 +267,5 @@ ___
 [Compiled CSS and JS]:https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
 [tbg-colors]: img/tbg-colors.png
 [preestablecidas]: img/preestablecidas.png
+[Página demo]:https://dev.netvicios.com/
+[Demo page]:https://dev.netvicios.com/
