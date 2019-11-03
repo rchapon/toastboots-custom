@@ -243,6 +243,7 @@ ___
 * [jQuery (página/page)]
 * [Font Awesome (página/page)]
 
+[toastboots-custom]:https://github.com/rchapon/toastboots-custom/blob/master/toastboots-custom/toastboots-custom.js
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
 [Font Awesome página]:https://fontawesome.com/
