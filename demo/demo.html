@@ -261,8 +261,15 @@
                             <label class="text-light">content</label>
                             <input class="form-control" type="text" id="content">
                         </div>
-                        <div class="col-xl-6 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <label class="text-light">errors</label>
+                            <select class="form-control" id="errors">
+                                <option value=""></option>
+                                <option value="true">true</option>
+                                <option value="false">false</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         </div>
                     </div>
                     <div class="row">
@@ -398,6 +405,8 @@
     <script type="text/javascript" src="js/jquery3.4.1/jquery3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/fontawesome-free-5.10.2-web/all.min.js"></script>
+    <script type="text/javascript" src="js/toastboots-custom/toastboots-custom-errors_en.js"></script>
+    <script type="text/javascript" src="js/toastboots-custom/toastboots-custom-errorshandler.js"></script>
     <script type="text/javascript" src="js/toastboots-custom/toastboots-custom.js"></script>
     <script type="text/javascript">
         $("document").ready(function(){
@@ -418,7 +427,8 @@
                     delay      = $("#delay").val(),
                     width      = $("#width").val(),
                     posy       = $("#posy").val(),
-                    posx       = $("#posx").val();
+                    posx       = $("#posx").val(),
+                    errors     = $("#errors option:selected").text();
                 $.toast({
                     site: site,
                     title: title,
@@ -436,7 +446,8 @@
                     delay: delay,
                     width : width,
                     posy: posy,
-                    posx: posx
+                    posx: posx,
+                    errors: errors
                 });
             });
             $(document).on('hidden.bs.toast','.toast',function (e) {
