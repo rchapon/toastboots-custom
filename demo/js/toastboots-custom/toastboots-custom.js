@@ -6,23 +6,38 @@
 
 (function(t){
     t.toast=function(toast){
-        var site      = (toast.site != undefined && toast.site != "")?toast.site:"body",
+        var site      = (toast.site != undefined && toast.site != "")?toast.site :"body",
             title     = (toast.title != undefined && toast.title != "" ) ? toast.title :"Notice!",
-            tbg       = (toast.titleBg != undefined && toast.titleBg != "" ) ? toast.titleBg :"bg-primary",
-            ttc       = (toast.titleTc != undefined && toast.titleTc != "" ) ? toast.titleTc :"text-white",
+            tbg       = (toast.titleBg != undefined && toast.titleBg != "" ) ? toast.titleBg.toLowerCase() :"bg-primary",
+            ttc       = (toast.titleTc != undefined && toast.titleTc != "" ) ? toast.titleTc.toLowerCase() :"text-white",
             subtitle  = (toast.subtitle != undefined && toast.subtitle != "") ? toast.subtitle :"Now",
-            stc       = (toast.subtitleTc != undefined && toast.subtitleTc != "") ? toast.subtitleTc :"text-white",
-            timestc   = (toast.timesTc != undefined && toast.timesTc != "") ? toast.timesTc :"text-light",
+            stc       = (toast.subtitleTc != undefined && toast.subtitleTc != "") ? toast.subtitleTc.toLowerCase() :"text-white",
+            timestc   = (toast.timesTc != undefined && toast.timesTc != "") ? toast.timesTc.toLowerCase() :"text-light",
             content   = (toast.content != undefined && toast.content != "") ? toast.content :"Hello World, this is a toast",
-            cbg       = (toast.contentBg != undefined && toast.contentBg != "") ? toast.contentBg :"bg-white",
-            ctc       = (toast.contentTc != undefined && toast.contentTc != "") ? toast.contentTc :"text-dark",
-            animation = (toast.animation != undefined && toast.animation != "") ? toast.animation :"true",
-            autohide  = (toast.autohide != undefined && toast.autohide != "") ? toast.autohide :"true",
-            delay     = (toast.delay != undefined && toast.delay != "") ? toast.delay :3000,
-            width     = (toast.width != undefined && toast.width != "") ? toast.width : "auto",
-            type      = (toast.type != undefined && toast.type != "") ? toast.type : "",
-            posy      = (toast.posy != undefined && toast.posy != "") ? toast.posy : 'top:0',
-            posx      = (toast.posx != undefined && toast.posx != "") ? toast.posx : 'right:0';
+            cbg       = (toast.contentBg != undefined && toast.contentBg != "") ? toast.contentBg.toLowerCase() :"bg-white",
+            ctc       = (toast.contentTc != undefined && toast.contentTc != "") ? toast.contentTc.toLowerCase().toLowerCase() :"text-dark",
+            animation = (toast.animation != undefined && toast.animation != "") ? toast.animation.toLowerCase() :"true",
+            autohide  = (toast.autohide != undefined && toast.autohide != "") ? toast.autohide.toLowerCase() :"true",
+            delay     = (toast.delay != undefined && toast.delay != "") ? toast.delay.toLowerCase() :3000,
+            width     = (toast.width != undefined && toast.width != "") ? toast.width.toLowerCase() : "auto",
+            type      = (toast.type != undefined && toast.type != "") ? toast.type.toLowerCase() : "",
+            posy      = (toast.posy != undefined && toast.posy != "") ? toast.posy.toLowerCase() : 'top:0',
+            posx      = (toast.posx != undefined && toast.posx != "") ? toast.posx.toLowerCase() : 'right:0',
+            error     = (toast.errors != undefined && toast.errors != "") ? toast.errors.toLowerCase() : "false",
+            errors    = (error == "true") ? true : false,
+            bg_arr    = ["bg-primary", "bg-warning", "bg-danger", "bg-success", "bg-info", "bg-dark", "bg-white", "bg-light", "bg-secondary", "bg-transparent"],
+            text_arr  = ["text-primary", "text-warning", "text-danger", "text-success", "text-info", "text-dark", "text-white", "text-light", "text-secondary", "text-muted", "text-body", "text-black-50", "text-white-50"],
+            type_arr  = ["primary", "primary-light", "primary-dark", "dark-primary", "light-primary", "warning", "warning-light", "warning-dark", "dark-warning", "light-warning", "danger", "danger-light", "danger-dark", "dark-danger", "light-danger", "success", "success-light", "success-dark", "dark-success", "light-success", "info", "info-light", "info-dark", "dark-info", "light-info", "dark", "light", "dark-light", "light-dark"],
+            anihi_arr = ["true", "false"],
+            posy_arr  = ["top", "bottom"],
+            posx_arr  = ["left", "right"],
+            siteL = (site == 'body')? site : "#"+site,
+            posyparts = "",
+            posxparts = "";
+
+            if (type) {
+                tbg = ttc = stc = timestc = ctc = cbg = "";
+            }
 
             switch (type){
                 case "primary":
@@ -217,11 +232,120 @@
                     cbg     = "bg-light";
                     break;
                 default :
-                break;
+                    break;
             }
-        var siteL = (site == 'body')? site : "#"+site,
-            posyparts = posy.split(':'),
-            posxparts = posx.split(':');
+            var siteFlag      = true,
+                tbgFlag       = true,
+                ttcFlag       = true,
+                stcFlag       = true,
+                timestcflag   = true,
+                ctcFlag       = true,
+                cbgFlag       = true,
+                animationFlag = true,
+                autohideFlag  = true,
+                delayFlag     = false,
+                widthpxFlag   = true,
+                widthFlag     = false,
+                typeFlag      = true,
+                posyFlag      = true,
+                posydotsFlag  = true,
+                posxFlag      = true,
+                posxdotsFlag  = true,
+                errorhandler  = [];
+            siteFlag = $(site).length;
+            if (!siteFlag) {
+                errorhandler.push(1);
+            }
+            if (!type) {
+                tbgFlag = bg_arr.includes(tbg);
+                if (!tbgFlag) {
+                    errorhandler.push(2);
+                }
+                ttcFlag = text_arr.includes(ttc);
+                if (!ttcFlag) {
+                    errorhandler.push(3);
+                }
+                stcFlag = text_arr.includes(stc);
+                if (!stcFlag) {
+                    errorhandler.push(4);
+                }
+                timestcFlag = text_arr.includes(timestc);
+                if (!timestcFlag) {
+                    errorhandler.push(5);
+                }
+                ctcFlag = text_arr.includes(ctc);
+                if (!ctcFlag) {
+                    errorhandler.push(6);
+                }
+                cbgFlag = bg_arr.includes(cbg);
+                if (!cbgFlag) {
+                    errorhandler.push(7);
+                }
+            }
+            animationFlag = anihi_arr.includes(animation);
+            if (!animationFlag) {
+                errorhandler.push(8);
+            }
+            autohideFlag = anihi_arr.includes(autohide);
+            if (!autohideFlag) {
+                errorhandler.push(9);
+            }
+            delayFlag = isNaN(Number(delay));
+            if (delayFlag) {
+                errorhandler.push(10);
+            }
+            widthpxFlag = width.includes("px");
+            if (widthpxFlag) {
+                widthparts = width.split("px");
+                widthFlag = isNaN(Number(widthparts[0]));
+                if (widthFlag) {
+                    errorhandler.push(11);
+                }
+            } else if (width != "auto") {
+                widthFlag = isNaN(Number(width));
+                if (widthFlag) {
+                    errorhandler.push(11);
+                } else {
+                    width = width+"px";
+                }
+            }
+            if (type) {
+                typeFlag = type_arr.includes(type);
+                if (!typeFlag) {
+                    errorhandler.push(12);
+                }
+            }
+            posydotsFlag = posy.includes(":");
+            if (posydotsFlag) {
+                posyparts = posy.split(':');
+                posyFlag = posy_arr.includes(posyparts[0]);
+                if (!posyFlag) {
+                    errorhandler.push(13);
+                }
+            } else {
+                errorhandler.push(13);
+            }
+            posxdotsFlag = posx.includes(":");
+            if (posxdotsFlag) {
+                posxparts = posx.split(':');
+                posxFlag = posx_arr.includes(posxparts[0]);
+                if (!posxFlag) {
+                    errorhandler.push(14);
+                }
+            } else {
+                errorhandler.push(14);
+            }
+
+            if (errors) {
+                if (errorhandler.length > 0){
+                    console.log ('%c toastboots-custom '+head+' ' , headerlog);
+                    for (var i = 0; i < errorhandler.length; i++) {
+                        id = errorhandler[i];
+                        printMessage(id, msgs);
+                    }
+                }
+            }
+
         t(siteL).find("#toast-container-"+site).length||
             (t(siteL).prepend('<div id="toast-container-'+site+'" aria-live="polite" aria-atomic="true"></div>'),t("#toast-container-"+site).append('<div id="toast-wrapper-'+site+'" style="position: absolute; z-index: 19999;"></div>'));
 
@@ -231,19 +355,25 @@
         toast+="</div>";
         ""!==content&&(toast+='<div class="toast-body '+cbg+" "+ctc+'">',toast+=content,toast+="</div>");
         toast+="</div>";
-        if (posyparts[0] == 'bottom') {
-            t("#toast-wrapper-"+site).css("top", "");
-        } else {
-            t("#toast-wrapper-"+site).css("bottom", "");
+        if (posydotsFlag){
+            if (posyparts[0] == 'bottom') {
+                t("#toast-wrapper-"+site).css("top", "");
+            } else {
+                t("#toast-wrapper-"+site).css("bottom", "");
+            }
         }
-        if (posxparts[0] == 'left') {
-            t("#toast-wrapper-"+site).css("right", "");
-        } else {
-            t("#toast-wrapper-"+site).css("left", "");
+        if (posxdotsFlag){
+            if (posxparts[0] == 'left') {
+                t("#toast-wrapper-"+site).css("right", "");
+            } else {
+                t("#toast-wrapper-"+site).css("left", "");
+            }
         }
-        t("#toast-wrapper-"+site).css(posyparts[0], posyparts[1]+"px");
-        t("#toast-wrapper-"+site).css(posxparts[0], posxparts[1]+"px");
-        t("#toast-wrapper-"+site).append(toast);
-        t("#toast-wrapper-"+site+" .toast:last").toast("show")
+        if (posydotsFlag && posxdotsFlag && posyFlag && posxFlag ) {
+            t("#toast-wrapper-"+site).css(posyparts[0], posyparts[1]+"px");
+            t("#toast-wrapper-"+site).css(posxparts[0], posxparts[1]+"px");
+            t("#toast-wrapper-"+site).append(toast);
+            t("#toast-wrapper-"+site+" .toast:last").toast("show")
+        }
     }
 })(jQuery);
