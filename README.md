@@ -22,7 +22,10 @@ Estos son los requisitos para usar toastboots-custom:
 
 - Opcional [Font Awesome] o cualquier framework de iconos, porque pueden ser utilizados dentro en **toastboots-custom**.
 
-- Y por supuesto incorporar [toastboots-custom].
+- Incorporar todos los archivos que forman parte del funcionamiento de toastboots-custom.
+    1. toastboots-custom-errors_es.js
+    2. toastboots-custom-errorshandler.js
+    3. toastboots-custom.js
 
 Se debe ver así:
 ````html
@@ -34,6 +37,8 @@ Se debe ver así:
     <script type="text/javascript" src="tu-ruta/jquery3.4.1.min.js"></script>
     <script type="text/javascript" src="tu-ruta/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="tu-ruta/font-awesome.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom-errors_es.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom-errorshandler.js"></script>
     <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
 </body
 ````
@@ -63,7 +68,8 @@ De la siguiente manera:
                 delay: '',
                 width : '',
                 posy: '',
-                posx: ''
+                posx: '',
+                errors: ''
             });
         });
     </script>
@@ -93,8 +99,9 @@ La propiedad **type** le da un estilo de las 29 combinaciones que posee el compl
 |**autohide**|Activa o no el autohide del toast, **'true'** activa, **'false'** inactiva, por defecto es **'true'**, si es colocado en **'false'** el usuario deberá cerrar el toast y la propiedad **delay** será omitida.|
 |**delay**|Tiempo de retardo para que el toast se oculte si la propiedad **autohide** está activa **'true'**. Su valor es en milisegundos, 1000 = 1s, valor por defecto 3000 = 3s.|
 |**width**|Ancho del toast, debe ser definido en pixeles con el valor+px ejemplo **'150px'**, el valor por defecto es **'auto'**, el cual se adapta al contenido.|
-|**posy**|Posición del toast en el eje **"Y"** en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**, por defecto es top:0|
-|**posx**|Posición del toast en el eje **"X"** en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**, por defecto es right:0|
+|**posy**|Posición del toast en el eje **"Y"** en relacíón a la propiedad **site**, ejemplo **'top:10'** o **'bottom:20'**, por defecto es **top:0**|
+|**posx**|Posición del toast en el eje **"X"** en relacíón a la propiedad **site**, ejemplo **'left:10'** o **'right:20'**, por defecto es **right:0**|
+|**errors**| Activa o no mostrar errores en console.log(), por defecto es **false**|
 
 ### Remover el toastboots-custom del DOM
 
@@ -116,6 +123,12 @@ Este complemento utiliza las clases de boostrap para colores de texto y de fondo
 
 1. [VER COLORES DE TEXTO Y  DE FONDOS](#coloryfondo)
 2. [VER COMBINACIONES PREESTABLECIDAS](#preestablecidas)
+
+### Colaboración
+
+Si deseas colaborar con el mejoramiento u optimización de este complemento, solo debes escribir y aportar lo que desees y se te puede agregar como colaborador.
+
+Puede ser incluso traduciendo a otros idiomas la información del complemento o de los mensajes de errores.
 
 ___
 ___
@@ -141,7 +154,10 @@ This are the requirements to can use toastboots-custom:
 
 - Optional [Font Awesome] or any icon framework, because they can be used in **toastboots-custom**.
 
-- And of course incorporate [toastboots-custom]
+- Incorporate all files that are part of the operation of toastboots-custom
+    1. toastboots-custom-errors_es.js
+    2. toastboots-custom-errorshandler.js
+    3. toastboots-custom.js
 
 It should look like this:
 ````html
@@ -150,10 +166,12 @@ It should look like this:
     <link rel="stylesheet" type="text/css" href="you-path/font-awesome.min.css">
 </head>
 <body>
-    <script type="text/javascript" src="you-path/jquery3.4.1.min.js"></script>
-    <script type="text/javascript" src="you-path/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="you-path/font-awesome.min.js"></script>
-    <script type="text/javascript" src="you-path/toastboots-custom.js">
+    <script type="text/javascript" src="your-path/jquery3.4.1.min.js"></script>
+    <script type="text/javascript" src="your-path/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="your-path/font-awesome.min.js"></script>
+    <script type="text/javascript" src="your-path/toastboots-custom-errors_en.js"></script>
+    <script type="text/javascript" src="your-path/toastboots-custom-errorshandler.js"></script>
+    <script type="text/javascript" src="your-path/toastboots-custom.js">
 </body
 ````
 ### How does it work
@@ -182,7 +200,8 @@ As follows:
                 delay: '',
                 width : '',
                 posy: '',
-                posx: ''
+                posx: '',
+                errors:''
             });
         });
     </script>
@@ -212,8 +231,9 @@ The **type** property gives you a style of the 29 combinations that the pre-esta
 |**autohide**| Activate or not the toast autohide, **'true'** active, **'false'** inactive, default is **'true'**, if set to **'false'** the user must close the toast and the **delay** property will be omitted.
 |**delay**| Delay time for the toast to hide if the **autohide** property is active **'true'**. Its value is in milliseconds, 1000 = 1s, default value 3000 = 3s.
 |**width**| Width of the toast, must be defined in pixels with the value+px example **'150px'** or **'300px'**, the default value is **'auto'**, which adapts to the content.|
-|**posy**| Position of the toast on the axis **"Y"** in relation to the property **site**, example **'top:10'** or **'bottom:20'**, default is top:0|
-|**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**, default is right:0|
+|**posy**| Position of the toast on the axis **"Y"** in relation to the property **site**, example **'top:10'** or **'bottom:20'**, default is **top:0**|
+|**posx**| Position of the toast on the axis **"X"** in relation to the property **site**, example **'left:10'** or **'right:20'**, default is **right:0**|
+|**errors**| Activate or not show errors on console.log(), default is **false**|
 
 ### Remove the toastboots-custom from the DOM
 
@@ -235,6 +255,13 @@ This plugin uses bootstrap classes for text colors and background colors.
 
 1. [SEE TEXT COLORS AND BACKGROUND COLORS](#coloryfondo)
 2. [SEE PRE-ESTABLISHED COMBINATIONS](#preestablecidas)
+
+### Collaboration
+
+If you want to collaborate with the improvement or optimization of this complement, you just have to write and contribute what you want and you can add it as a collaborator.
+
+It may even be translating the add-in information or error messages into other languages.
+
 ___
 
 ## Colores de texto y fondo / Text and background Colors <a name="coloryfondo"></a>
@@ -250,7 +277,6 @@ ___
 * [Font Awesome (página/page)]
 
 [logo_75]:img/logo_75.png
-[toastboots-custom]:https://github.com/rchapon/toastboots-custom/blob/master/toastboots-custom/toastboots-custom.js
 [Bootstrap página]:https://getbootstrap.com/
 [jQuery página]:https://jquery.com/
 [Font Awesome página]:https://fontawesome.com/
