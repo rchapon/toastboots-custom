@@ -23,9 +23,9 @@ Estos son los requisitos para usar toastboots-custom:
 - Opcional [Font Awesome] o cualquier framework de iconos, porque pueden ser utilizados dentro en **toastboots-custom**.
 
 - Incorporar todos los archivos que forman parte del funcionamiento de toastboots-custom.
-    1. toastboots-custom-errors_es.js
-    2. toastboots-custom-errorshandler.js
-    3. toastboots-custom.js
+    1. toastboots-custom-errors_es.min.js o toastboots-custom-errors_es.js
+    2. toastboots-custom-errorshandler.min.js o toastboots-custom-errorshandler.js
+    3. toastboots-custom.min.js o toastboots-custom.js
 
 Se debe ver así:
 ````html
@@ -37,9 +37,9 @@ Se debe ver así:
     <script type="text/javascript" src="tu-ruta/jquery3.4.1.min.js"></script>
     <script type="text/javascript" src="tu-ruta/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="tu-ruta/font-awesome.min.js"></script>
-    <script type="text/javascript" src="tu-ruta/toastboots-custom-errors_es.js"></script>
-    <script type="text/javascript" src="tu-ruta/toastboots-custom-errorshandler.js"></script>
-    <script type="text/javascript" src="tu-ruta/toastboots-custom.js">
+    <script type="text/javascript" src="tu-ruta/toastboots-custom-errors_es.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom-errorshandler.min.js"></script>
+    <script type="text/javascript" src="tu-ruta/toastboots-custom.min.js">
 </body
 ````
 ### Como funciona
@@ -155,9 +155,9 @@ This are the requirements to can use toastboots-custom:
 - Optional [Font Awesome] or any icon framework, because they can be used in **toastboots-custom**.
 
 - Incorporate all files that are part of the operation of toastboots-custom
-    1. toastboots-custom-errors_es.js
-    2. toastboots-custom-errorshandler.js
-    3. toastboots-custom.js
+    1. toastboots-custom-errors_en.min.js o toastboots-custom-errors_en.js
+    2. toastboots-custom-errorshandler.min.js o toastboots-custom-errorshandler.js
+    3. toastboots-custom.min.js o toastboots-custom.js
 
 It should look like this:
 ````html
@@ -169,9 +169,9 @@ It should look like this:
     <script type="text/javascript" src="your-path/jquery3.4.1.min.js"></script>
     <script type="text/javascript" src="your-path/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="your-path/font-awesome.min.js"></script>
-    <script type="text/javascript" src="your-path/toastboots-custom-errors_en.js"></script>
-    <script type="text/javascript" src="your-path/toastboots-custom-errorshandler.js"></script>
-    <script type="text/javascript" src="your-path/toastboots-custom.js">
+    <script type="text/javascript" src="your-path/toastboots-custom-errors_en.min.js"></script>
+    <script type="text/javascript" src="your-path/toastboots-custom-errorshandler.min.js"></script>
+    <script type="text/javascript" src="your-path/toastboots-custom.min.js">
 </body
 ````
 ### How does it work
