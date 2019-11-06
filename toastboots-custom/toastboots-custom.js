@@ -252,9 +252,12 @@
                 posxFlag      = true,
                 posxdotsFlag  = true,
                 errorhandler  = [];
-            siteFlag = $(site).length;
-            if (!siteFlag) {
-                errorhandler.push(1);
+            if (site != "body"){
+                sitefind = $('body').find("#"+site);
+                siteFlag = (sitefind.length > 0) ? true : false;
+                if (!siteFlag) {
+                    errorhandler.push(1);
+                }
             }
             if (!type) {
                 tbgFlag = bg_arr.includes(tbg);
